@@ -1,8 +1,8 @@
 # Postgres and Pgadmin Docker
 
 Steps to install:
-1. Copy the env.example to .env
-2. Fill up the following fields
+1. Copy the env.example to .env `cp env.example .env`
+2. Fill up the following fields in the .env file
 ```
 POSTGRES_PASSWORD=
 
