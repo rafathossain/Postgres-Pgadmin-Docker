@@ -12,3 +12,7 @@ PGADMIN_DEFAULT_PASSWORD=
 3. Now run `sh deploy.sh`
 4. After the docker container is up, you can access the pgadmin via: {SERVER_IP}:5480
 5. Thank you.
+
+Now you can add server in pgadmin to connect to your pgsql database.
+
+Default pgsql port: 5430
