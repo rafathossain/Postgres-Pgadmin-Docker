@@ -24,8 +24,6 @@ docker builder prune -a -f >/dev/null 2>&1
 
 shopt -s extglob
 
-rm -rf /var/lib/docker
-
 systemctl restart docker
 
 echo "COMPLETE"
